@@ -12,6 +12,7 @@
     "paths": {
       "@shared/*": ["./shared/*"],
       "@/*": ["./client/src/*"]
-    }
+    },
+    "jsx": "react-jsx"
   }
 }
