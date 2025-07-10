@@ -11,11 +11,15 @@
   },
   "dependencies": {
     "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "connect-pg-simple": "^10.0.0",
+    "drizzle-orm": "^0.33.0",
+    "drizzle-zod": "^0.5.1",
+    "pg": "^8.12.0",
+    "zod": "^3.23.8",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3",
-    "vite": "^6.0.1",
-    "drizzle-orm": "^0.33.0",
-    "drizzle-zod": "^0.5.1"
+    "vite": "^6.0.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
