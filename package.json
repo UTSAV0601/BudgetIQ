@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "type": "module",
   "license": "MIT",
+  "description": "Modern personal finance management with optimized architecture",
   "scripts": {
     "dev": "NODE_ENV=development tsx server/index.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
@@ -10,31 +11,26 @@
     "check": "tsc"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.2.0",
+    "@mui/material": "^7.2.0",
+    "@tanstack/react-query": "^5.83.0",
+    "@vitejs/plugin-react": "^4.3.3",
     "express": "^4.21.1",
-    "express-session": "^1.18.1",
-    "connect-pg-simple": "^10.0.0",
-    "drizzle-orm": "^0.33.0",
-    "drizzle-zod": "^0.5.1",
-    "pg": "^8.12.0",
-    "zod": "^3.23.8",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "wouter": "^3.3.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^3.1.0",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3",
     "vite": "^6.0.1",
-    "tailwindcss": "^3.4.16",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.0"
+    "wouter": "^3.7.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
-    "@types/express-session": "^2.0.0",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.2",
     "@types/node": "^22.10.1",
-    "@types/pg": "^8.11.10",
-    "@vitejs/plugin-react": "^4.3.4",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
     "esbuild": "^0.24.0"
   }
 }
