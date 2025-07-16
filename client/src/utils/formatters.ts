@@ -11,6 +11,9 @@ export const formatDate = (dateString: string) =>
     year: 'numeric'
   });
 
+export const formatPercentage = (value: number) => 
+  `${value.toFixed(1)}%`;
+
 export const CHART_COLORS = [
   '#0088FE', '#00C49F', '#FFBB28', 
   '#FF8042', '#8884D8', '#82CA9D'
